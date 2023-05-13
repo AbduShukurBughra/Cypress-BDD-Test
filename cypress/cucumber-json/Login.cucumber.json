@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Through this feature User should be able to login into Orange HRM demo website",
+    "keyword": "Feature",
+    "name": "Orange HRM Login Feature",
+    "line": 1,
+    "id": "orange-hrm-login-feature",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "orange-hrm-login-feature;user-should-be-able-to-login-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "user should be able to login using Valid Credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Visit the Orange HRM website",
+            "result": {
+              "status": "passed",
+              "duration": 16295000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User provide username",
+            "result": {
+              "status": "passed",
+              "duration": 1303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User provide password",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Click on the Login button to log in into the Orange HRM website",
+            "result": {
+              "status": "passed",
+              "duration": 3062000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
